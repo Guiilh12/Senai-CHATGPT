@@ -6,17 +6,17 @@
     margin-bottom: 16px;
 }
 
-.robo-image{
-
-    background-color: red;
+.robo-image{ 
     width: 50vw; ;/* 50% da largura do monitor*/
     height: 100vh; /*100% da altura do monitor */
+    background-image: url("../login/asset/img/Rectangle\ 1.png"); /*imagem de fundo*/
+    background-size: cover; /*imagem de fundo cobre todo o container*/
 }
 .page-container{
     display: flex;/* um ao lado do outro*/
 }
-.login{
-    background-color: green;
+.login{ 
+    
     width: 50vw;
     height: 100vh;
     /*kit sobrevivencia de centralizacao*/
