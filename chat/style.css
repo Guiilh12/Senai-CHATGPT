@@ -17,31 +17,78 @@ width: 20vw;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+background-color: blue;
+
+}
+
+
+.top{
+    width: 100%;
+    min-height: 200px;
+    background-color: aqua;
+}
+
+.top button{
+    cursor: pointer;
+padding-left: 5px;
+    background-color: #1c1c1c;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.bottom{
+    width: 100%;
+    min-height: 200px;
 
 }
 
 .central-panel{
     width: 80vw;
     height: 100vh;
-
- 
+     align-items: center;
+    
 }
-
-.top{
-    width: 100%;
-    min-height: 200px;
- 
-}
-
-.bottom{
-    width: 100%;
-    min-height: 200px;
-  
-}
-
 .logo{
-    background-image: url("/.img/Chat.svg");
-    margin-top: 260px;
-    margin-left: 300px;
+    margin-top: 180px;
+    margin-left: 260px;
+    width: 42%;
+    height: 15%;
+    background-image: url(./img/Chat.png);
+    background-size: cover;
+    justify-content: center;
+}
+ 
 
+
+.central{
+    margin-top: 10px;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-right: 40px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.icon{ 
+    margin-top: 40px;
+    text-align: center;
+}
+
+.icon h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.icon p{
+    display:inline-block;
+    padding:7px 14px;
+    font-size: 14px;
+    color: #1c1c1c;
+    background-color: #F7F9FB;
+    border: 1px#000000 solid;
+    border-radius: 8px;
+    text-align: left;
+    width: fit-content;
+    margin: 8px;
 }
