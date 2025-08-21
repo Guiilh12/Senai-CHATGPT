@@ -78,12 +78,16 @@ justify-content: space-between;
 .central-panel{
     width: 80vw;
     height: 100vh;
-     align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
     
 }
 .logo{
     margin-top: 180px;
-    margin-left: 260px;
+    margin-right: 180px;
+    margin-left: 180px;
     width: 42%;
     height: 15%;
     background-image: url(./img/Chat.png);
@@ -126,16 +130,30 @@ justify-content: space-between;
     width: fit-content;
     margin: 8px;
 }
-.pesquisa{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.pesquisa {
+  position: relative; /* cria contexto para o label */
+  display: inline-block;
 }
-.pesquisa input{
 
-    margin-top: 30px;
-    margin-left: 80px;
-    width: 800px;
-    height: 40px;
-   
+.pesquisa input {
+    width: 600px;
+    height: 20px;
+  padding: 12px 10px; /* espaço interno */
+  padding-left: 40px;
+  background-color: #a1a1a1;
+  border: 2px solid #ccc; /* sua borda visível */
+  border-radius: 20px;
+  width: 200px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.pesquisa label {
+  position: absolute;
+  padding: 50px;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%); /* centraliza verticalmente */
+  color: #888;
+  pointer-events: none; /* evita clicar no label em vez do input */
 }
