@@ -85,7 +85,7 @@ justify-content: space-between;
     
 }
 .logo{
-    margin-top: 180px;
+    margin-top: 100px;
     margin-right: 180px;
     margin-left: 180px;
     width: 42%;
@@ -130,30 +130,38 @@ justify-content: space-between;
     width: fit-content;
     margin: 8px;
 }
-.pesquisa {
-  position: relative; /* cria contexto para o label */
-  display: inline-block;
-}
+    .pesquisa {
+      position: relative;
+      margin: 20px;
+      margin-right: 80px;
+     
+    }
 
-.pesquisa input {
-    width: 600px;
-    height: 20px;
-  padding: 12px 10px; /* espaço interno */
-  padding-left: 40px;
-  background-color: #a1a1a1;
-  border: 2px solid #ccc; /* sua borda visível */
-  border-radius: 20px;
-  width: 200px;
-  color: #fff;
-  font-size: 14px;
-}
+    
+    .pesquisa input {
+      border-color: #F7F9FB;
+      border: 2px #000000 solid;
+      border-radius: 20px;
+      height: 20px;
+      width: 650px;
+      padding: 10px;
+      padding-left: 60px;
+      padding-right: 60px;
+      font-size: 16px;
+    }
 
-.pesquisa label {
-  position: absolute;
-  padding: 50px;
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%); /* centraliza verticalmente */
-  color: #888;
-  pointer-events: none; /* evita clicar no label em vez do input */
-}
+    .pesquisa label {
+      
+      position: absolute;
+      left: 60px;
+      color: #888;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    input:focus + label,
+    input:not(:placeholder-shown) + label {
+      opacity: 0;
+    }
+
+
