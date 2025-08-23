@@ -138,8 +138,9 @@ justify-content: space-between;
     }
 
     
-    .pesquisa input {
-      border-color: #F7F9FB;
+    .pesquisa input { 
+      margin-top:150px;
+      border-color: transparent;
       border: 2px #000000 solid;
       border-radius: 20px;
       height: 20px;
@@ -151,7 +152,7 @@ justify-content: space-between;
     }
 
     .pesquisa label {
-      
+      margin-top: 150px;
       position: absolute;
       left: 60px;
       color: #888;
