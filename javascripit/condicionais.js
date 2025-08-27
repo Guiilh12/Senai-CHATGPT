@@ -99,4 +99,80 @@
 //     alert("Login bem-sucedido")
 // } else{
 //     alert("Acesso negado")
+// // } 
+
+// exercicio 9
+
+// let a = prompt("numero");  
+// let b = prompt("numero"); 
+// let c = prompt("numero"); 
+// if ( a > b && a > c ){
+//     alert("numero maior a")
+// } else if(b>a && b > c){
+//     alert("numero maior b")
+// }else{
+//     alert("numero maior c")
+// }
+
+
+// exercicio 10
+
+// let valor = Number(prompt("digite o valor"));
+// if (valor > 100) {
+//     alert( valor-(valor * 0.1) );
+// } else{
+//     alert(valor);
+// }
+
+// let a = Number(prompt("número1"));
+// let b = Number(prompt("número2"));
+// let c = Number(prompt("número3"));
+
+// if( a == b && a == c ){
+//     alert("triângulo equilátero");
+// } else if (a == b && a != c){
+//     alert("triângulo   isósceles");
+// }else{
+//     alert(" triângulo escaleno")
+// }
+
+// exercicio 11 
+
+// let numero =  prompt("insere uma nota (0-100).")
+// if (numero >=90 && numero <= 100){
+//     alert("A");
+// }else if ( numero >= 80 && numero <= 89 ){
+//     alert("B");
+// }else if(numero >= 70 && numero <= 79 ){
+//     alert("C");
+// }else if (numero >= 60 && numero <= 69){
+//     alert("D")
+// }else{
+//     alert("F")
+// }
+
+
+// exercicio 12
+
+// let peso = Number (prompt("digite o peso"));
+// let altura = Number (prompt("digite o altura"));
+// let resultado = peso/(altura*altura);
+
+// if ( resultado < 18.5){
+//     alert( resultado + " Abaixo do peso. " );
+// }else if ( resultado >= 18.5 && resultado <= 24.9){
+//     alert(resultado + " Peso Normal ");
+// }else if (resultado >= 25 && 29.9 ){
+//     alert( resultado + "Sobre Peso.");
+// }else(resultado +  "Obesidade.")
+
+
+
+// let ano = Number( prompt(" digiteo ano "));
+// if(ano % 4 === 0 && ano % 100 !== 0){
+//     alert("é bissexto.");
+// }else if(ano % 400 === 0){
+//     alert("é bissexto.");
+// }else{
+//     alert("Não  é bissexto.");
 // }
