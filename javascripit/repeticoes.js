@@ -34,3 +34,38 @@
 // for ( let i=1; i<= numero;i++ ){
 //     soma = soma + i;
 // } console.log(soma)
+
+
+// for(let numero=1; numero <= 50 ; numero++){
+//     if( numero % 2 == 0  ){
+//     console.log (numero)
+// }
+// }
+// let  aleatorio
+// aleatorio = Number (Math.floor(Math.random()*101))
+// console.log(aleatorio)
+//  let numero;
+
+// while( numero !== aleatorio ){
+
+//       numero = Number(prompt(" adivinhe o número "));
+
+// if (numero > aleatorio){
+//     alert("número digitatado é maior que o gerado ");
+//  } else if (numero < aleatorio){
+//     alert("número digitatado é menor que o gerado ");
+//  }else{
+//     alert("acertou o número!!! " + aleatorio );
+//  }
+
+// }
+
+
+// let numero = Number(prompt("digite um número"));
+// numero=numero+1
+// while(numero >0){
+
+//     if(numero = numero -1){
+//     console.log(numero)
+// }
+// }
