@@ -28,8 +28,3 @@ const produtocaro = produtos.find(produto => produto == 700);
 console.log(produtocaro);
 }
 
-function demomap(){
-    const numeros = [1, 2, 3, 4, 5, 6,]
-const numerosdobras = numeros.map(numero => numero *2);
-console.log(numerosdobras)
-}
