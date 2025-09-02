@@ -167,7 +167,7 @@
 // }else(resultado +  "Obesidade.")
 
 
-
+// exercicio 13
 // let ano = Number( prompt(" digiteo ano "));
 // if(ano % 4 === 0 && ano % 100 !== 0){
 //     alert("é bissexto.");
