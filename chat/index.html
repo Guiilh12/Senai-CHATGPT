@@ -1,95 +1,134 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - SenaiGPT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+</head>
 
-    <head>
-        <!--
-            head significa cabeça.
-            Aqui no <head> é onde definimos tudo relacionado a configuração da página, título da guia, importações de CSS e etc.
-            Aqui NÃO COLOCAMOS nada que apareça na tela efetivamente, somente configurações.
-        -->
-        <title>chat</title>
-        <link rel="stylesheet" href="style.css">
+<body>
+
+    <div class="container">
         
-    </head>
-
-    <body class="conteiner">
-        <!--
-            body significa corpo.
-            Aqui no <body> colocamos tudo que de fato VAI aparecer na tela.
-        -->
-
-        <!-- Cabeçalho -->
-        <aside class="left-panel">
-
-            <div class="top"> 
-                <button>+ new chat</button>
-                <p>AI Chat Tool Ethics</p>
-                <p>Al Chat Tool Impact Writing</p>
-                <p>New chat</p>
-        
-
-            </div>
-
-
-<div class="bottom">
-  <p>Clear conversations</p>
-  <p>Light mode</p>
-  <p>My  account</p>
-  <p>Updates & FAQ</p>
-  <p>Log out</p>
-</div>
-
-        </aside>
-
-        <!-- Conteúdo principal do site -->
-        <main class="central-panel">
-
-         <div class="logo">
-         
-        </div>
-
-        <div class="central">
-            <div class="icon">
-
-               <img src="" alt="">
-
-               <h1>Examples</h1>
-               
-                <p>"Explain quantum computing insimple terms"</p>
-                <p>"Got any creative ideas for a 10year old's birthday?"</p>
-                <p>"How do I make an HTTP requestin Javascript?"</p>
-            </div>
-
-            <div class="icon">
-
-              <img src="" alt="">
-
-                <h1>Capabilities</h1>
-
-                <p>Remembers what user saidearlier in the conversation.</p>
-                <p>Allows user to provide follow-up corrections.</p>
-                <p>Trained to decline inappropriate requests.</p>
-            </div>
-            <div class="icon">
-
-                <img src="" alt="">
-
-                <h1>Limitations</h1>
-
-                <p>May occasionally generate incorrect information.</p>
-                <p>May occasionally produce harmful instructions or biased content.</p>
-                <p>Limited knowledge of world andevents after 2021.</p>
-            </div>
-        </div>
-                <div class="pesquisa">
-                     <i class=" fa-solid  fa-microphone"></i>         
-                     <i class=" fa-solid fa-img"></i>
-                    <input type="text" name="input" placeholder=" message">
-<i class="fa-solid fa-paper-plane"></i>                   
+        <header class="left-panel">
+    
+            <div class="top">
+    
+                <button class="btn-new-chat">+ New chat</button>
+    
+                <button class="btn-chat">
+                    <img src="./imgs/chat.svg" alt="ícone de chat.">
+                    AI Chat Tool Ethics
+                </button>
                 
+                <button class="btn-chat">
+                    <img src="./imgs/chat.svg" alt="ícone de chat.">
+                    AI Chat Tool Impact Writing
+                </button>
+                
+                <button class="btn-chat">
+                    <img src="./imgs/chat.svg" alt="ícone de chat.">
+                    New chat
+                </button>
+
+            </div>
+    
+            <div class="bottom">
+    
+                <button class="btn-chat"> 
+                    <img src="./imgs/lixo.png" alt="ícone d lixeira">
+                    Clear conversations
+                </button>
+
+
+                <button class="btn-chat">
+                   <img src="./imgs/Vector.png" alt="ícone de sol"> 
+                    Light mode</button>
+
+
+                <button class="btn-chat">
+                    <img src="./imgs/User.png" alt="ícone de usuario">
+                    My account</button>
+
+
+                <button class="btn-chat">
+                    <img src="./imgs/ArrowSquareOut.png" alt="ícone de arrow">
+                    Updates & FAQ</button>
+
+
+                <button class="btn-chat">
+                    <img src="./imgs/sair.png" alt="ícone de sair">
+                    Log out</button>
+                
+            </div>
+    
+        </header>
+        
+        <main class="central-panel">
+    
+            <div class="logo">
+                <img src="./imgs/Chat.png" alt="Logo do SenaiGPT.">
+            </div>
+    
+            <div class="container">
+
+                <div class="item">
+
+                    <h2>
+                        <img src="./imgs/example.svg" alt="Example icon.">
+                        Examples
+                    </h2>
+
+                    <p>"Explain quantum computing insimple terms"</p>
+                    <p>"Got any creative ideas for a 10year old's birthday?"</p>
+                    <p>"How do I make an HTTP requestin Javascript?"</p>
+
                 </div>
+
+                <div class="item">
+
+                    <h2>
+                        <img src="./imgs/IconSet.png" alt="Example icon.">
+                        Capabilities
+                    </h2>
+
+                    <p>Remembers what user saidearlier in the conversation.</p>
+                    <p>Allows user to provide follow-up corrections.</p>
+                    <p>Trained to decline inappropriate requests.</p>
+
+                </div>
+
+                <div class="item">
+
+                    <h2>
+                        <img src="./imgs/ShieldWarning.png" alt="Example icon.">
+                        Examples
+                    </h2>
+                    
+                    <p>May occasionally generate incorrect information.</p>
+                    <p>May occasionally produce harmful instructions or biased content.</p>
+                    <p>Limited knowledge of world andevents after 2021.</p>
+
+                </div>
+
+            </div>
+
+            <div class="input-container-1">
+
+                <img src="./imgs/mic.svg" alt="Microphone.">
+                <img src="./imgs/img.svg" alt="Image.">
+                
+                <input placeholder="Type a message." type="text">
+                
+                <img src="./imgs/send.svg" alt="Send.">
+
+            </div>
+
         </main>
 
+    </div>
 
-    </body>
-
+</body>
 </html>
